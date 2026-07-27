@@ -5,41 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home — Workr Lite RI</title>
     <meta name="description" content="Relações com Investidores — Transparência e acesso às informações da companhia." />
-    <!-- Fonts injected at runtime by theme.js from siteConfig.fonts -->
     <link rel="stylesheet" href="/styles/main.scss" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   </head>
   <body>
     <div id="site-topbar"></div>
-    <header id="site-header"></header>
+    <header id="site-header" data-hide-nav data-navbar-variant="navbar-blur"></header>
 
     <main>
-      <section class="home-hero" aria-label="Início">
-        <img class="home-hero__bg" id="hero-bg"
-             src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1920&q=80"
-             alt="" aria-hidden="true" />
-        <div class="home-hero__overlay" aria-hidden="true"></div>
 
-        <div class="home-hero__body">
-          <h1 class="home-hero__title">Relações com Investidores</h1>
-          <p class="home-hero__subtitle">
-            Transparência e confiança para nossos investidores.
-            Acompanhe resultados, documentos e informações corporativas.
-          </p>
-          <!-- href updated by page.js to first enabled channel -->
-          <a href="#" data-hero-cta class="home-hero__cta">
-            Acessar conteúdo
-          </a>
+      <!-- ── Carousel Banner — rendered by carousel.js from siteConfig ──────── -->
+      <div class="carousel" id="home-carousel" data-slides="v2" aria-label="Banner principal">
+      </div>
+
+      <!-- ── Tab Menu Section — nav + panels populated by tab-menu.js ──────── -->
+      <section class="page-section" aria-label="Conteúdo RI">
+        <div class="page-section__container">
+
+          <nav class="tab-menu__nav" data-tab-nav="home-tabs" aria-label="Seções de conteúdo">
+            <!-- populated by tab-menu.js from siteConfig.nav -->
+          </nav>
+
+          <div class="tab-menu__panels">
+            <!-- populated by tab-menu.js — each panel starts as .page-empty -->
+          </div>
+
         </div>
-
-        <!-- dots populated by page.js — só aparecem com mais de um banner -->
-        <div class="carousel__dots home-hero__dots" data-hero-dots role="tablist" aria-label="Banners"></div>
-
-        <!-- shortcuts populated by page.js from siteConfig.nav -->
-        <nav class="home-hero__shortcuts" aria-label="Acesso rápido">
-          <div class="home-hero__shortcuts-inner" data-hero-shortcuts></div>
-        </nav>
       </section>
+
     </main>
 
     <footer id="site-footer"></footer>
@@ -58,5 +51,7 @@
     </div>
 
     <script type="module" src="/scripts/page.js"></script>
+    <script type="module" src="/scripts/carousel.js"></script>
+    <script type="module" src="/scripts/tab-menu.js"></script>
   </body>
 </html>
