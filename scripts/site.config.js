@@ -23,8 +23,8 @@ export const siteConfig = {
   },
 
   fonts: {
-    display: "lora",
-    body:    "nunito",
+    display: "Nunito",
+    body:    "Nunito",
   },
 
   ticker: {
