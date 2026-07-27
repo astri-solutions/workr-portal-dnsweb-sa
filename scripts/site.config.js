@@ -2,6 +2,8 @@
 // Gerado pelo Workr Lite CMS — não editar manualmente.
 export const siteConfig = {
 
+  // Ligado via Painel de Controle (super_admin) — quando true, page.js
+  // mostra só uma tela de aviso e não inicializa o resto do site.
   maintenance: false,
 
   company: {
@@ -16,8 +18,8 @@ export const siteConfig = {
 
   colors: {
     primary:   "#91ce3e",
-    secondary: "#e68900",
-    tertiary:  "#808080",
+    secondary: "#616161",
+    tertiary:  "#faa600",
   },
 
   fonts: {
@@ -28,7 +30,9 @@ export const siteConfig = {
   ticker: {
     type:      "iframe",
     iframeUrl: "",
-    items: [],
+    items: [
+      { symbol: 'WRLT3', price: 'R$ 00,00', change: '0,00%', direction: 'up' }
+    ],
   },
 
   nav: [
@@ -40,52 +44,69 @@ export const siteConfig = {
   ],
 
   empresas: [
-    { id: 'principal', label: "DNSWEB SA", short: 'D' },
+    { id: "principal-1785175971015", label: "DNSWEB SA", short: "D" }
   ],
 
-  supabase: {
-    url:      "https://mmhuwlpsgnvoxyuofliq.supabase.co",
-    anonKey:  "sb_publishable_BBSPbQc2kZngiK45ecfXaA_X4NANiGj",
-    portalId: "120cb5ee-77bc-4c8e-9499-0c2df9119d8d",
-  },
-
   header: { variant: 'tabmenu' },
-
-  seo: {
-    title:             "DNSWEB SA - Relações com Investidores",
-    description:       "Descrição do site de Relações com os Investidores da DNSWEB S.A.",
-    googleAnalyticsId: "21212121",
-    clarityId:         "21212121",
-  },
-
-  contact: {
-    email: "d.sousa@astri.solutions",
-  },
 
   languages: ["pt-BR","en","es"],
 
   topbar: {
-    ri: { label: 'Relações com Investidores', url: '/' },
-    institucional: { label: 'Institucional', url: '#' },
+    ri: { label: "Relações com Investidores", url: "/" },
+    institucional: { label: "Institucional", url: "#" },
     showTicker: true,
   },
 
   restrictedNav: [],
 
   footer: {
-    variant:   'simple',
-    address:   "",
-    email:     "",
-    phone:     "",
-    hours:     "",
-    copyright: "©Copyright DNSWEB SA 2026",
+    variant: "full",
+    model: "completo",
+    email: "",
+    content: {"pt-BR":{"address":"","phone":"","hours":"","copyright":"©Copyright DNSWEB SA 2026","disclaimer":"As informações contidas neste site são de caráter meramente informativo e não constituem oferta de valores mobiliários."}},
     social: { linkedin: "#", instagram: "#", facebook: "#" },
     legalLinks: [
       { label: "Termos e Condições", href: "/termos-e-condicoes.html" },
       { label: "Política de Privacidade", href: "/politica-de-privacidade.html" },
       { label: "Definições de Cookies", href: "/definicao-de-cookies.html" }
     ],
-    legalText: "As informações contidas neste site são de caráter meramente informativo e não constituem oferta de valores mobiliários.",
+  },
+
+  splash: {
+    enabled: false,
+    size: 'md',
+    titulo: '',
+    texto: '',
+    conteudo: '',
+    legenda: '',
+    buttons: [],
+  },
+
+  cookies: {
+    enabled: true,
+    layout: 'full',
+    theme: 'light',
+    title: 'Utilizamos cookies',
+    description: 'Usamos cookies para melhorar sua experiência.',
+    acceptLabel: 'Aceitar todos',
+    rejectLabel: 'Rejeitar',
+    showReject: true,
+    showCustomize: false,
+  },
+
+  errorPages: [],
+
+  banner: [],
+
+  // Home hero shortcuts (Banner com navbar) — null = derive from siteConfig.nav.
+  home: {
+    shortcuts: null,
+  },
+
+  supabase: {
+    url:      "https://mmhuwlpsgnvoxyuofliq.supabase.co",
+    anonKey:  "sb_publishable_BBSPbQc2kZngiK45ecfXaA_X4NANiGj",
+    portalId: "120cb5ee-77bc-4c8e-9499-0c2df9119d8d",
   },
 
 };
