@@ -54,7 +54,7 @@ export const siteConfig = {
   topbar: {
     ri: { label: "Relações com Investidores", url: "/" },
     institucional: { label: "Institucional", url: "#" },
-    showTicker: true,
+    showTicker: false,
   },
 
   restrictedNav: [],
