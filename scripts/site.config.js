@@ -98,7 +98,19 @@ export const siteConfig = {
 
   errorPages: [],
 
-  banner: [],
+  banner: [
+    {
+      "id": "b1",
+      "imagem": null,
+      "content": {
+        "pt-BR": {
+          "cta": "Saiba mais",
+          "titulo": "Relações com Investidores tes",
+          "subtitulo": "Transparência e geração de valor para nossos acionistas."
+        }
+      }
+    }
+  ],
 
   // Home hero shortcuts (Banner com navbar) — null = derive from siteConfig.nav.
   home: {
