@@ -101,7 +101,7 @@ export const siteConfig = {
   banner: [
     {
       "id": "b1",
-      "imagem": null,
+      "imagem": "/assets/banner/b1-e7faab823039.webp",
       "content": {
         "en": {
           "cta": "Learn more",
