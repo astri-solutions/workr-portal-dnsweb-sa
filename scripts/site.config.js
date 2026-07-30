@@ -103,6 +103,11 @@ export const siteConfig = {
       "id": "b1",
       "imagem": null,
       "content": {
+        "en": {
+          "cta": "",
+          "titulo": "Investor Relations",
+          "subtitulo": "Transparency and value creation for our shareholders."
+        },
         "pt-BR": {
           "cta": "Saiba mais",
           "titulo": "Relações com Investidores",
