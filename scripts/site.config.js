@@ -104,9 +104,14 @@ export const siteConfig = {
       "imagem": null,
       "content": {
         "en": {
-          "cta": "",
+          "cta": "Learn more",
           "titulo": "Investor Relations",
           "subtitulo": "Transparency and value creation for our shareholders."
+        },
+        "es": {
+          "cta": "Más información",
+          "titulo": "Relaciones con los inversores",
+          "subtitulo": "Transparencia y creación de valor para nuestros accionistas."
         },
         "pt-BR": {
           "cta": "Saiba mais",
