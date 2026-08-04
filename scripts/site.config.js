@@ -49,7 +49,7 @@ export const siteConfig = {
     { id: "principal-1785175971015", label: "DNSWEB SA", short: "D" }
   ],
 
-  header: { variant: 'tabmenu' },
+  header: { variant: 'sidebar' },
 
   languages: ["pt-BR","en","es"],
 
@@ -62,8 +62,8 @@ export const siteConfig = {
   restrictedNav: [],
 
   footer: {
-    variant: "full",
-    model: "completo",
+    variant: "simple",
+    model: "reduzido",
     email: "",
     content: {"pt-BR":{"address":"","phone":"","hours":"","copyright":"©Copyright DNSWEB SA 2026","disclaimer":"As informações contidas neste site são de caráter meramente informativo e não constituem oferta de valores mobiliários."}},
     social: { linkedin: "#", instagram: "#", facebook: "#" },
