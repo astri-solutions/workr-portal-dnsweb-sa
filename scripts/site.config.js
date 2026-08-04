@@ -42,6 +42,7 @@ export const siteConfig = {
     { id: "mailing", label: "Mailing", href: "/mailing.html", children: [] },
     { id: "gnaegf7", label: "Central de Resultados", labels: {"pt-BR":"Central de Resultados"}, href: "/gnaegf7.html", pageType: "tabela-resultados", children: [] },
     { id: "99h5foc", label: "Quem Somos", labels: {"pt-BR":"Quem Somos"}, href: "/99h5foc.html", pageType: "tabela", children: [] },
+    { id: "5fhssne", label: "Governança - TESTE", labels: {"pt-BR":"Governança - TESTE"}, href: "/5fhssne.html", pageType: "show", children: [] },
   ],
 
   empresas: [
