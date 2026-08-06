@@ -119,6 +119,18 @@ export const siteConfig = {
           "subtitulo": "Transparência e geração de valor para nossos acionistas."
         }
       }
+    },
+    {
+      "id": "b9b0g2lmnsai",
+      "imagem": "/assets/banner/b9b0g2lmnsai-5bd96897a5c3.webp",
+      "content": {
+        "pt-BR": {
+          "cta": "Saiba mais",
+          "titulo": "Novo banner de <strong>Teste</strong>",
+          "subtitulo": "Neste sub-titulo podemos colocar <strong>o texto que quisermos,</strong> o ideal para explicar o conteúdo."
+        }
+      },
+      "ctaLink": "https://www.astri.solutions/"
     }
   ],
 
