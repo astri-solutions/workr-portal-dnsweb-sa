@@ -75,13 +75,20 @@ export const siteConfig = {
   },
 
   splash: {
-    enabled: false,
-    size: 'md',
-    titulo: '',
-    texto: '',
-    conteudo: '',
-    legenda: '',
-    buttons: [],
+    "size": "lg",
+    "texto": "A Companhia vem a público prestar o seguinte esclarecimento: PT",
+    "titulo": "Comunicado ao Mercado PT",
+    "buttons": [
+      {
+        "url": "",
+        "label": "Saiba mais",
+        "variant": "primary"
+      }
+    ],
+    "enabled": true,
+    "legenda": "",
+    "conteudo": "Descreva aqui o conteúdo do comunicado.",
+    "imageUrl": null
   },
 
   cookies: {
