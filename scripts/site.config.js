@@ -75,9 +75,9 @@ export const siteConfig = {
   },
 
   splash: {
-    "size": "lg",
-    "texto": "A Companhia vem a público prestar o seguinte esclarecimento: PT",
-    "titulo": "Comunicado ao Mercado PT",
+    "size": "md",
+    "texto": "A Companhia vem a público prestar o seguinte esclarecimento:",
+    "titulo": "Comunicado ao Mercado",
     "buttons": [
       {
         "url": "",
@@ -85,7 +85,7 @@ export const siteConfig = {
         "variant": "primary"
       }
     ],
-    "enabled": true,
+    "enabled": false,
     "legenda": "",
     "conteudo": "Descreva aqui o conteúdo do comunicado.",
     "imageUrl": null
