@@ -64,13 +64,13 @@ export const siteConfig = {
   footer: {
     variant: "full",
     model: "completo",
-    email: "",
-    content: {"pt-BR":{"address":"","phone":"","hours":"","copyright":"©Copyright DNSWEB SA 2026","disclaimer":"As informações contidas neste site são de caráter meramente informativo e não constituem oferta de valores mobiliários."}},
+    email: "workrlite@astri.com",
+    content: {"pt-BR":{"hours":"Segunda a sexta, das 08h às 18h, exceto feriados.","phone":"(11) 1234-5678","address":"Av. Brigadeiro Faria Lima, 2.277, 17º andar — São Paulo/SP, CEP 01452-000","copyright":"©Copyright Workr Lite - DNSWEB SA 2026","disclaimer":"As informações contidas neste site são de caráter meramente informativo e não constituem oferta de valores mobiliários."}},
     social: { linkedin: "#", instagram: "#", facebook: "#" },
     legalLinks: [
-      { label: "Termos e Condições", href: "/termos-e-condicoes.html" },
-      { label: "Política de Privacidade", href: "/politica-de-privacidade.html" },
-      { label: "Definições de Cookies", href: "/definicao-de-cookies.html" }
+      { label: "Termos e Condições ES", href: "/termos-e-condicoes.html" },
+      { label: "Política de Privacidade ES", href: "/politica-de-privacidade.html" },
+      { label: "Definições de Cookies ES", href: "/definicao-de-cookies.html" }
     ],
   },
 
